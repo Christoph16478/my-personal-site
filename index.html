@@ -1,743 +1,760 @@
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
-    <head>
-		<meta charset="utf-8"></meta>
-        <meta http-equiv="x-ua-compatible" content="ie=edge"></meta>
-		<meta name="description" content=""></meta>
-		<meta name='copyright' content='codeglim'></meta>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
-		<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-		
-		<title>Christoph - Web developer</title>
-		
-		<link rel="icon" type="image/png" href="favicon.png" />
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet" /> 
-        <link rel="stylesheet" href="css/animate.min.css" />
-        <link rel="stylesheet" href="css/font-awesome.min.css" />
-        <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
-        <link rel="stylesheet" href="css/slicknav.min.css" />
-        <link rel="stylesheet" href="css/animate-text.css" />
-		<link rel="stylesheet" href="css/owl.theme.default.css" />
-        <link rel="stylesheet" href="css/owl.carousel.min.css" />
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/reset.css" />	
-        <link rel="stylesheet" href="css/responsive.css" />	
-		<link rel="stylesheet" href="css/color/color.css" />
 
-		<!--[if IE6]-->
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<!--[endif]-->
-		
-		<link rel="stylesheet" href="#" id="colors" />
-	</head>
+<head>
+    <meta charset="utf-8"></meta>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"></meta>
+    <meta name="description" content=""></meta>
+    <meta name='copyright' content='codeglim'></meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
 
-	<!-- Internal CSS -->
-	<style>
-		.button {
-			border: none;
-			color: white;
-			padding: 16px 32px;
-			text-align: center;
-			text-decoration: none;
-			display: inline-block;
-			font-size: 16px;
-			margin: 4px 2px;
-			-webkit-transition-duration: 0.4s; /* Safari */
-			transition-duration: 0.4s;
-			cursor: pointer;
-		}
+    <title>Christoph - Web developer</title>
 
-		.button5 {
-			background-color: white;
-			color: black;
-			border: 2px solid #555555;
-		}
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/slicknav.min.css" />
+    <link rel="stylesheet" href="css/animate-text.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/color/color.css" />
 
-		.button5:hover {
-			background-color: #555555;
-			color: white;
-		}
+    <!--[if IE6]-->
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <!--[endif]-->
 
-		.button5 {
-			font-size: 14px;
-		}
-	</style>
-	<!-- Internal CSS END -->
+    <link rel="stylesheet" href="#" id="colors" />
+</head>
 
-    <body>
-		<!-- Preloader -->
-		<div class="loader">
-			<div class="loader-inner">
-				<div class="k-line k-line11-1"></div>
-				<div class="k-line k-line11-2"></div>
-				<div class="k-line k-line11-3"></div>
-				<div class="k-line k-line11-4"></div>
-				<div class="k-line k-line11-5"></div>
-			</div>
-		</div>
-		<!-- End Preloader -->
+<!-- Internal CSS -->
+<style>
+    .button {
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        -webkit-transition-duration: 0.4s;
+        /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    
+    .button5 {
+        background-color: white;
+        color: black;
+        border: 2px solid #555555;
+    }
+    
+    .button5:hover {
+        background-color: #555555;
+        color: white;
+    }
+    
+    .button5 {
+        font-size: 14px;
+    }
+</style>
+<!-- Internal CSS END -->
 
-		<!-- Start Header -->
-		<header id="header">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-2 col-sm-12 col-xs-12">
-						<!-- Logo -->
-						<div class="logo">
-							<a href="index.html">Christoph</a>
-						</div>
-						<!--/ End Logo -->
-						<div class="mobile-nav"></div>
-					</div>
-					<div class="col-md-10 col-sm-12 col-xs-12">
-						<div class="nav-area">
-							<!-- Main Menu -->
-							<nav class="mainmenu">
-								<div class="collapse navbar-collapse">
-									<ul class="nav navbar-nav menu">
-										<li class="active"><a href="#personal-area"><i class="fa fa-home"></i>Home</a>
-										</li>
-										<li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a>
-										</li>
-										<li><a href="#my-timeline"><i class="fa fa-history"></i>Work and Education</a></li>		
-										<li><a href="#contact"><i class="fa fa-address-book"></i>Contact</a></li>		
-									</ul>
-								</div>
-							</nav>
-							<!--/ End Main Menu -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-		<!--/ End Header -->
+<body>
+    <!-- Preloader -->
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="k-line k-line11-1"></div>
+            <div class="k-line k-line11-2"></div>
+            <div class="k-line k-line11-3"></div>
+            <div class="k-line k-line11-4"></div>
+            <div class="k-line k-line11-5"></div>
+        </div>
+    </div>
+    <!-- End Preloader -->
 
-		<!-- Start Personal Area -->
-    	<section id="personal-area" id="particles-js">
-			<div class="personal-main">
-				<div class="personal-single">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12 col-sm-12 col-xs-12">
-								<!-- Personal Text -->
-								<div class="personal-text">
-									<div class="my-info">
-										<h1>My Name Is Chris</h1>
-										<h2 class="cd-headline clip is-full-width">
-										   I am a passionate
-										   <span class="cd-words-wrapper">
+    <!-- Start Header -->
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-12 col-xs-12">
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="index.html">Christoph</a>
+                    </div>
+                    <!--/ End Logo -->
+                    <div class="mobile-nav"></div>
+                </div>
+                <div class="col-md-10 col-sm-12 col-xs-12">
+                    <div class="nav-area">
+                        <!-- Main Menu -->
+                        <nav class="mainmenu">
+                            <div class="collapse navbar-collapse">
+                                <ul class="nav navbar-nav menu">
+                                    <li class="active"><a href="#personal-area"><i class="fa fa-home"></i>Home</a>
+                                    </li>
+                                    <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a>
+                                    </li>
+                                    <li><a href="#my-timeline"><i class="fa fa-history"></i>Work and Education</a></li>
+                                    <li><a href="#contact"><i class="fa fa-address-book"></i>Contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <!--/ End Main Menu -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--/ End Header -->
+
+    <!-- Start Personal Area -->
+    <section id="personal-area" id="particles-js">
+        <div class="personal-main">
+            <div class="personal-single">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <!-- Personal Text -->
+                            <div class="personal-text">
+                                <div class="my-info">
+                                    <h1>My Name Is Chris</h1>
+                                    <h2 class="cd-headline clip is-full-width">
+                                        I am a passionate
+                                        <span class="cd-words-wrapper">
 												<b class="is-visible">Web developer</b>
 												<b>Programmer</b>
 												<b>Creator</b>
 											</span>
-										</h2>
-									</div>
-								</div>
-								<!--/ End Personal Text -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--/ End Personal Area -->
+                                    </h2>
+                                </div>
+                            </div>
+                            <!--/ End Personal Text -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ End Personal Area -->
 
-		<!-- Start About Me -->
-		<section id="about-me" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 col-sm-12 col-xs-12 fix">
-						<!-- About Tab -->
-						<div class="tabs-main">
-							<div class="tab-content">
-								<!-- Single Tab -->
-								<div role="tabpanel" class="tab-pane fade in active" id="welcome">
-									<div class="about-text">
-										<h2 class="tab-title">About Me</h2>
-										<div class="row">
-											<div class="col-md-4 col-sm-4 col-xs-12">
-												<!-- About Image -->
-												<div class="single-image">
-													<img src="images/personal/my-image.png" alt=""></img>
-												</div>
-											</div>
-											<!-- End About Image -->
-											<div class="col-md-8 col-sm-12 col-xs-12">
-												<div class="content">
-													<p style="font-size: 24px; line-height: 140%"> I am a passionate programmer and developer. I enjoy to create new things and try to renew or improve old ones. I always have the overall goal and the satisfaction of my customer in mind. Continuous learning and development are very important for me. During my time in tourism I have already proven punctuality, a precise way of working and a friendly contact with customers and employees.</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!--/ End Single Tab -->
-								<!-- Single Tab -->
-								<div role="tabpanel" class="tab-pane fade" id="why">
-									<div class="about-text">
-										<h2 class="tab-title">Why Me?</h2>
-										<div class="content">
-											<p>I am a responsive web developer. ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-											<!--<p>creative web developer ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>-->
-										</div>
-									</div>
-								</div>
-								<!--/ End Single Tab -->
-							</div>
-						</div>
-						<!--/ End About Tab -->
-					</div>
-				</div>
-			</div>
-		</section>		
-		<!--/ End About Me -->
+    <!-- Start About Me -->
+    <section id="about-me" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 fix">
+                    <!-- About Tab -->
+                    <div class="tabs-main">
+                        <div class="tab-content">
+                            <!-- Single Tab -->
+                            <div role="tabpanel" class="tab-pane fade in active" id="welcome">
+                                <div class="about-text">
+                                    <h2 class="tab-title">About Me</h2>
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-4 col-xs-12">
+                                            <!-- About Image -->
+                                            <div class="single-image">
+                                                <img src="images/personal/my-image.png" alt=""></img>
+                                            </div>
+                                        </div>
+                                        <!-- End About Image -->
+                                        <div class="col-md-8 col-sm-12 col-xs-12">
+                                            <div class="content">
+                                                <p style="font-size: 24px; line-height: 140%"> I am a passionate programmer and developer. I enjoy to create new things and try to renew or improve old ones. I always have the overall goal and the satisfaction of my customer in mind. Continuous learning
+                                                    and development are very important for me. During my time in tourism I have already proven punctuality, a precise way of working and a friendly contact with customers and employees.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/ End Single Tab -->
+                            <!-- Single Tab -->
+                            <div role="tabpanel" class="tab-pane fade" id="why">
+                                <div class="about-text">
+                                    <h2 class="tab-title">Why Me?</h2>
+                                    <div class="content">
+                                        <p>I am a responsive web developer. ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                                            a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature,
+                                            discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise
+                                            on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                                        <!--<p>creative web developer ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>-->
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/ End Single Tab -->
+                        </div>
+                    </div>
+                    <!--/ End About Tab -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ End About Me -->
 
-		<!-- Start portfolio -->
-		<section id="portfolio" class="section">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-12 col-sm-12 col-xs-12">
-						<div class="section-title">
-							<h1><span>My</span> projects<i class="fa fa-briefcase"></i></h1>
-							<p style="font-size: 14pt">Here are some of my projects which were created during my studies.
-								More projects, explanations and the corresponding source code can be found on my Github account.
-							</p><br />
-							<a href="https://github.com/Christoph16478"><button class="button button5">Github account</button></a>
-						</div>
-					</div>
-				</div>		
-				<div class="row">
-					<div class="col-md-12 col-sm-12 col-xs-12">
-					</div>
-				</div>		
-				<div class="portfolio-inner">
-					<div class="row stylex">	
-						<div class="isotop-active">
-							<!-- Single portfolio -->
-							<div class="mix development html5 col-md-4 col-sm-6 col-xs-12 col-fix ">
-								<div class="portfolio-single">
-									<div class="portfolio-head">
-										<img src="images/portfolio/portfolio1.jpg" alt=""/>
-									</div>
-									<div class="portfolio-hover">
-										<h4><span>Frontend</span><a href="#">3 dimensional modelling</a></h4>
-									<div style="line-height: 200%">
-										<kbd style="font-size: 14pt;"><a href="https://html.spec.whatwg.org/multipage/">HTML 5</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.w3.org/Style/CSS/Overview.de.html">CSS 3</a></kbd> <kbd style="font-size: 14pt;"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Javascript</a></kbd> <kbd style="font-size: 14pt;"><a href="http://vcg.isti.cnr.it/spidergl/">SpiderGL</a></kbd> <kbd style="font-size: 14pt;"><a href="http://vcg.isti.cnr.it/3dhop/">3DHOP</a></kbd><br />
-									</div>
-									<div style="line-height: 200%">
-										<kbd style="font-size: 14pt;"><a href="http://vcg.isti.cnr.it/nexus/">NEXUS</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.agisoft.com/">Agisoft Metashape</a></kbd> <kbd style="font-size: 14pt;"><a href="http://www.meshlab.net/">Meshlab</a></kbd>
-									</div>                                                      	
-										<div class="button">
-											<a href="https://christoph16478.github.io/PresentationOfThreeDObjects/" class="primary"><i class="fa fa-home"></i></a>
-											<a href="https://github.com/Christoph16478/PresentationOfThreeDObjects"><i class="fa fa-file-code-o"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!--/ End portfolio -->
-							<!-- Single portfolio -->
-							<div class="mix development html5 col-md-4 col-sm-6 col-xs-12 col-fix ">
-								<div class="portfolio-single">
-									<div class="portfolio-head">
-										<img src="images/portfolio/portfolio4.jpg" alt=""/>
-									</div>
-									<div class="portfolio-hover">
-										<h4><span>Frontend</span><a href="#">Digital edition - fragments</a></h4>
-									<div style="line-height: 200%">
-										<kbd style="font-size: 14pt;"><a href="https://html.spec.whatwg.org/multipage/">HTML 5</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.w3.org/Style/CSS/Overview.de.html">CSS 3</a></kbd> <kbd style="font-size: 14pt;"><a href="https://getbootstrap.com/docs/3.4/css/">Twitter Bootstrap</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.w3.org/XML/">XML</a></kbd> <kbd style="font-size: 14pt;"><a href="https://tei-c.org/guidelines/p5/">TEI P5</a></kbd><br />
-									</div>
-									<div style="line-height: 200%">
-										<kbd style="font-size: 14pt;"><a href="https://www.oxygenxml.com/">Oxygen XML Editor 21.1</a></kbd>
-									</div>                                                      
-										<div class="button">
-											<a href="https://christoph16478.github.io/FragmenteEdition/" class="primary"><i class="fa fa-home"></i></a>
-											<a href="https://github.com/Christoph16478/FragmenteEdition"><i class="fa fa-file-code-o"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!--/ End portfolio -->
-							<!-- Single portfolio -->
-							<div class="mix development html5 col-md-4 col-sm-6 col-xs-12 col-fix ">
-									<div class="portfolio-single">
-										<div class="portfolio-head">
-											<img src="images/portfolio/portfolio5.jpg" alt=""/>
-										</div>
-										<div class="portfolio-hover">
-											<h4><span>Frontend</span><a href="#">Digital edition - letter</a></h4>
-										<div style="line-height: 200%">
-											<kbd style="font-size: 14pt;"><a href="https://www.w3schools.com/">HTML 5/CSS 3/Javascript</a></kbd> <kbd style="font-size: 14pt;"><a href="https://getbootstrap.com/docs/3.4/css/">Twitter Bootstrap</a></kbd> <br /> 
-										</div>
-										<div style="line-height: 200%">
-											<kbd style="font-size: 14pt;"><a href="https://www.w3.org/XML/">XML</a></kbd> <kbd style="font-size: 14pt;"><a href="https://openseadragon.github.io/">OpenSeadragon 2.4.1</a></kbd> <kbd style="font-size: 14pt;"><a href="https://code.visualstudio.com">VS Code 1.39</a></kbd>
-										</div>                                                  
-											<div class="button">
-												<a href="https://christoph16478.github.io/digEdSchillerKant/" class="primary"><i class="fa fa-home"></i></a>
-												<a href="https://github.com/Christoph16478/digEdSchillerKant"><i class="fa fa-file-code-o"></i></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!--/ End portfolio -->
-								<!-- Single portfolio -->
-							<div class="mix development html5 col-md-4 col-sm-6 col-xs-12 col-fix ">
-									<div class="portfolio-single">
-										<div class="portfolio-head">
-											<img src="images/portfolio/portfolio8.jpg" alt=""/>
-										</div>
-										<div class="portfolio-hover">
-											<h4><span>Frontend and Backend</span><a href="#">Library</a></h4>
-										<div style="line-height: 200%">
-											<kbd style="font-size: 14pt;"><a href="https://www.python.org/">Python 3.7.4</a></kbd> <kbd style="font-size: 14pt;"><a href="https://docs.python.org/2/library/tkinter.html">tkinter 24.1</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.sqlite.org/docs.html">sqlite3</a></kbd>
-										</div>
-										<div style="line-height: 200%">
-											<kbd style="font-size: 14pt;"><a href="https://atom.io/">Atom 1.14.0</a></kbd>
-										</div>                                                    
-											<div class="button">
-												<a href="https://youtu.be/aKqrRX2OL40" class="primary"><i class="fa fa-film"></i></a>
-												<a href="https://github.com/Christoph16478/library_python"><i class="fa fa-file-code-o"></i></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!--/ End portfolio -->
-								<!-- Single portfolio -->
-							<div class="mix development html5 col-md-4 col-sm-6 col-xs-12 col-fix ">
-									<div class="portfolio-single">
-										<div class="portfolio-head">
-											<img src="images/portfolio/portfolio6.jpg" alt=""/>
-										</div>
-										<div class="portfolio-hover">
-											<h4><span>Backend</span><a href="#">Text analysation</a></h4>
-										<div style="line-height: 200%">
-											<kbd style="font-size: 14pt;"><a href="https://www.python.org/">Python 3.7.4</a></kbd> <kbd style="font-size: 14pt;"><a href="https://jupyter.org/">Jupyter Notebook 7.8.0</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.anaconda.com/distribution/">Anaconda 4.7.12</a></kbd>
-										</div>
-											<div class="button">
-												<!--<a data-fancybox="gallery" href="images/portfolio/portfolio1.jpg"><i class="fa fa-search"></i></a>-->
-												<a href="https://christoph16478.github.io/PythonAnalysingTexts/" class="primary"><i class="fa fa-book"></i></a>
-												<a href="https://github.com/Christoph16478/PythonAnalysingTexts"><i class="fa fa-file-code-o"></i></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!--/ End portfolio -->
-								<!-- Single portfolio -->
-							<div class="mix development html5 col-md-4 col-sm-6 col-xs-12 col-fix ">
-								<div class="portfolio-single">
-									<div class="portfolio-head">
-										<img src="images/portfolio/portfolio7.jpg" alt=""/>
-									</div>
-									<div class="portfolio-hover">
-										<h4><span>Backend</span><a href="#">Web scraping</a></h4>
-									<div style="line-height: 200%">
-										<kbd style="font-size: 14pt;"><a href="https://www.python.org/">Python 3.7.4</a></kbd> <kbd style="font-size: 14pt;"><a href="https://jupyter.org/">Jupyter Notebook 7.8.0</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">Beautiful Soup 4.4.0</a></kbd>
-									</div>                                                     
-										<div class="button">
-											<a href="https://youtu.be/jp4iNubblng" class="primary"><i class="fa fa-film"></i></a>
-											<a href="https://github.com/Christoph16478/web_scraping"><i class="fa fa-file-code-o"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!--/ End portfolio -->
-							<!-- Single portfolio -->
-							<div class="mix development html5 col-md-4 col-sm-6 col-xs-12 col-fix ">
-								<div class="portfolio-single">
-									<div class="portfolio-head">
-										<img src="images/portfolio/portfolio11.jpg" alt=""/>
-									</div>
-									<div class="portfolio-hover">
-										<h4><span>Frontend and Backend</span><a href="#">Poster Shop</a></h4>
-									<div style="line-height: 200%">									
-										<kbd style="font-size: 14pt;"><a href="https://www.w3schools.com/">HTML 5/CSS 3/Javascript</a></kbd> <kbd style="font-size: 14pt;"><a href="https://vuejs.org/">Vue.js</a></kbd> <kbd style="font-size: 14pt;"><a href="https://code.visualstudio.com">VS Code 1.39</a></kbd>
-									</div>                                                     
-										<div class="button">
-											<a href="https://youtu.be/SGhibjK8knc" class="primary"><i class="fa fa-film"></i></a>
-											<a href="https://github.com/Christoph16478/vuejs-poster-shop"><i class="fa fa-file-code-o"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!--/ End portfolio -->
-							<!-- Single portfolio -->
-							<div class="mix development html5 col-md-4 col-sm-6 col-xs-12 col-fix ">
-								<div class="portfolio-single">
-									<div class="portfolio-head">
-										<img src="images/portfolio/portfolio10.jpg" alt=""/>
-									</div>
-									<div class="portfolio-hover">
-										<h4><span>Frontend and Backend</span><a href="#">Contact Book</a></h4>
-									<div style="line-height: 200%">									
-										<kbd style="font-size: 14pt;"><a href="https://www.tutorialspoint.com/java/index.htm">JAVA</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.jetbrains.com/de-de/idea/">IntelliJ IDEA 2019.3</a></kbd>
-									</div>                                                     
-										<div class="button">
-											<a href="https://youtu.be/QLWH9m29ApM" class="primary"><i class="fa fa-film"></i></a>
-											<a href="https://github.com/Christoph16478/myContacts"><i class="fa fa-file-code-o"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!--/ End portfolio -->
-							<!-- Single portfolio -->
-							<div class="mix development html5 col-md-4 col-sm-6 col-xs-12 col-fix ">
-								<div class="portfolio-single">
-									<div class="portfolio-head">
-										<img src="images/portfolio/portfolio9.jpg" alt=""/>
-									</div>
-									<div class="portfolio-hover">
-										<h4><span>Frontend and Backend</span><a href="#">Analysation of Letters</a></h4>
-									<div style="line-height: 200%">
-										<kbd style="font-size: 14pt;"><a href="https://www.w3.org/TR/xslt-30/#what-is-xslt">XSLT 3.0</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.w3.org/XML/Query/">xquery</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.w3.org/XML/">XML</a></kbd> <kbd style="font-size: 14pt;"><a href="https://exist-db.org/exist/apps/doc/production_good_practice">eXist-db</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.w3.org/TR/1999/REC-xpath-19991116/">XPath</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.w3schools.com/">HTML 5/CSS 3/Javascript</a></kbd>
-									</div>                                                     
-										<div class="button">
-											<a href="https://youtu.be/WgwBAQSy6TQ" class="primary"><i class="fa fa-film"></i></a>
-											<a href="https://github.com/Christoph16478/xquery-text-analysation"><i class="fa fa-file-code-o"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!--/ End portfolio -->
-						</div>
-					</div>
-				</div>
-				<div class="row">
-				</div>
-			</div>
-		</section>
-		<!--/ End portfolio -->
+    <!-- Start portfolio -->
+    <section id="portfolio" class="section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="section-title">
+                        <h1><span>My</span> projects<i class="fa fa-briefcase"></i></h1>
+                        <p style="font-size: 14pt">Here are some of my projects which were created during my studies. More projects, explanations and the corresponding source code can be found on my Github account.
+                        </p><br />
+                        <a href="https://github.com/Christoph16478"><button class="button button5">Github account</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                </div>
+            </div>
+            <div class="portfolio-inner">
+                <div class="row stylex">
+                    <div class="isotop-active">
+                        <!-- Single portfolio -->
+                        <div class="mix development html5 col-md-4 col-sm-6 col-xs-12 col-fix ">
+                            <div class="portfolio-single">
+                                <div class="portfolio-head">
+                                    <img src="images/portfolio/portfolio1.jpg" alt="" />
+                                </div>
+                                <div class="portfolio-hover">
+                                    <h4><span>Frontend</span><a href="#">3 dimensional modelling</a></h4>
+                                    <div style="line-height: 200%">
+                                        <kbd style="font-size: 14pt;"><a href="https://html.spec.whatwg.org/multipage/">HTML 5</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.w3.org/Style/CSS/Overview.de.html">CSS 3</a></kbd> <kbd style="font-size: 14pt;"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Javascript</a></kbd>                                        <kbd style="font-size: 14pt;"><a href="http://vcg.isti.cnr.it/spidergl/">SpiderGL</a></kbd> <kbd style="font-size: 14pt;"><a href="http://vcg.isti.cnr.it/3dhop/">3DHOP</a></kbd><br />
+                                    </div>
+                                    <div style="line-height: 200%">
+                                        <kbd style="font-size: 14pt;"><a href="http://vcg.isti.cnr.it/nexus/">NEXUS</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.agisoft.com/">Agisoft Metashape</a></kbd> <kbd style="font-size: 14pt;"><a href="http://www.meshlab.net/">Meshlab</a></kbd>
+                                    </div>
+                                    <div class="button">
+                                        <a href="https://christoph16478.github.io/PresentationOfThreeDObjects/" class="primary"><i class="fa fa-home"></i></a>
+                                        <a href="https://github.com/Christoph16478/PresentationOfThreeDObjects"><i class="fa fa-file-code-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ End portfolio -->
+                        <!-- Single portfolio -->
+                        <div class="mix development html5 col-md-4 col-sm-6 col-xs-12 col-fix ">
+                            <div class="portfolio-single">
+                                <div class="portfolio-head">
+                                    <img src="images/portfolio/portfolio4.jpg" alt="" />
+                                </div>
+                                <div class="portfolio-hover">
+                                    <h4><span>Frontend</span><a href="#">Digital edition - fragments</a></h4>
+                                    <div style="line-height: 200%">
+                                        <kbd style="font-size: 14pt;"><a href="https://html.spec.whatwg.org/multipage/">HTML 5</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.w3.org/Style/CSS/Overview.de.html">CSS 3</a></kbd> <kbd style="font-size: 14pt;"><a href="https://getbootstrap.com/docs/3.4/css/">Twitter Bootstrap</a></kbd>                                        <kbd style="font-size: 14pt;"><a href="https://www.w3.org/XML/">XML</a></kbd> <kbd style="font-size: 14pt;"><a href="https://tei-c.org/guidelines/p5/">TEI P5</a></kbd><br />
+                                    </div>
+                                    <div style="line-height: 200%">
+                                        <kbd style="font-size: 14pt;"><a href="https://www.oxygenxml.com/">Oxygen XML Editor 21.1</a></kbd>
+                                    </div>
+                                    <div class="button">
+                                        <a href="https://christoph16478.github.io/FragmenteEdition/" class="primary"><i class="fa fa-home"></i></a>
+                                        <a href="https://github.com/Christoph16478/FragmenteEdition"><i class="fa fa-file-code-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ End portfolio -->
+                        <!-- Single portfolio -->
+                        <div class="mix development html5 col-md-4 col-sm-6 col-xs-12 col-fix ">
+                            <div class="portfolio-single">
+                                <div class="portfolio-head">
+                                    <img src="images/portfolio/portfolio5.jpg" alt="" />
+                                </div>
+                                <div class="portfolio-hover">
+                                    <h4><span>Frontend</span><a href="#">Digital edition - letter</a></h4>
+                                    <div style="line-height: 200%">
+                                        <kbd style="font-size: 14pt;"><a href="https://www.w3schools.com/">HTML 5/CSS 3/Javascript</a></kbd> <kbd style="font-size: 14pt;"><a href="https://getbootstrap.com/docs/3.4/css/">Twitter Bootstrap</a></kbd> <br
+                                        />
+                                    </div>
+                                    <div style="line-height: 200%">
+                                        <kbd style="font-size: 14pt;"><a href="https://www.w3.org/XML/">XML</a></kbd> <kbd style="font-size: 14pt;"><a href="https://openseadragon.github.io/">OpenSeadragon 2.4.1</a></kbd> <kbd style="font-size: 14pt;"><a href="https://code.visualstudio.com">VS Code 1.39</a></kbd>
+                                    </div>
+                                    <div class="button">
+                                        <a href="https://christoph16478.github.io/digEdSchillerKant/" class="primary"><i class="fa fa-home"></i></a>
+                                        <a href="https://github.com/Christoph16478/digEdSchillerKant"><i class="fa fa-file-code-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ End portfolio -->
+                        <!-- Single portfolio -->
+                        <div class="mix development html5 col-md-4 col-sm-6 col-xs-12 col-fix ">
+                            <div class="portfolio-single">
+                                <div class="portfolio-head">
+                                    <img src="images/portfolio/portfolio8.jpg" alt="" />
+                                </div>
+                                <div class="portfolio-hover">
+                                    <h4><span>Application</span><a href="#">Library</a></h4>
+                                    <div style="line-height: 200%">
+                                        <kbd style="font-size: 14pt;"><a href="https://www.python.org/">Python 3.7.4</a></kbd> <kbd style="font-size: 14pt;"><a href="https://docs.python.org/2/library/tkinter.html">tkinter 24.1</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.sqlite.org/docs.html">sqlite3</a></kbd>
+                                    </div>
+                                    <div style="line-height: 200%">
+                                        <kbd style="font-size: 14pt;"><a href="https://atom.io/">Atom 1.14.0</a></kbd>
+                                    </div>
+                                    <div class="button">
+                                        <a href="https://youtu.be/aKqrRX2OL40" class="primary"><i class="fa fa-film"></i></a>
+                                        <a href="https://github.com/Christoph16478/library_python"><i class="fa fa-file-code-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ End portfolio -->
+                        <!-- Single portfolio -->
+                        <div class="mix development html5 col-md-4 col-sm-6 col-xs-12 col-fix ">
+                            <div class="portfolio-single">
+                                <div class="portfolio-head">
+                                    <img src="images/portfolio/portfolio6.jpg" alt="" />
+                                </div>
+                                <div class="portfolio-hover">
+                                    <h4><span>Scripting</span><a href="#">Text analysation</a></h4>
+                                    <div style="line-height: 200%">
+                                        <kbd style="font-size: 14pt;"><a href="https://www.python.org/">Python 3.7.4</a></kbd> <kbd style="font-size: 14pt;"><a href="https://jupyter.org/">Jupyter Notebook 7.8.0</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.anaconda.com/distribution/">Anaconda 4.7.12</a></kbd>
+                                    </div>
+                                    <div class="button">
+                                        <!--<a data-fancybox="gallery" href="images/portfolio/portfolio1.jpg"><i class="fa fa-search"></i></a>-->
+                                        <a href="https://christoph16478.github.io/PythonAnalysingTexts/" class="primary"><i class="fa fa-book"></i></a>
+                                        <a href="https://github.com/Christoph16478/PythonAnalysingTexts"><i class="fa fa-file-code-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ End portfolio -->
+                        <!-- Single portfolio -->
+                        <div class="mix development html5 col-md-4 col-sm-6 col-xs-12 col-fix ">
+                            <div class="portfolio-single">
+                                <div class="portfolio-head">
+                                    <img src="images/portfolio/portfolio7.jpg" alt="" />
+                                </div>
+                                <div class="portfolio-hover">
+                                    <h4><span>Scripting</span><a href="#">Web scraping</a></h4>
+                                    <div style="line-height: 200%">
+                                        <kbd style="font-size: 14pt;"><a href="https://www.python.org/">Python 3.7.4</a></kbd> <kbd style="font-size: 14pt;"><a href="https://jupyter.org/">Jupyter Notebook 7.8.0</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">Beautiful Soup 4.4.0</a></kbd>
+                                    </div>
+                                    <div class="button">
+                                        <a href="https://youtu.be/jp4iNubblng" class="primary"><i class="fa fa-film"></i></a>
+                                        <a href="https://github.com/Christoph16478/web_scraping"><i class="fa fa-file-code-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ End portfolio -->
+                        <!-- Single portfolio -->
+                        <div class="mix development html5 col-md-4 col-sm-6 col-xs-12 col-fix ">
+                            <div class="portfolio-single">
+                                <div class="portfolio-head">
+                                    <img src="images/portfolio/portfolio11.jpg" alt="" />
+                                </div>
+                                <div class="portfolio-hover">
+                                    <h4><span>Frontend</span><a href="#">Poster Shop</a></h4>
+                                    <div style="line-height: 200%">
+                                        <kbd style="font-size: 14pt;"><a href="https://www.w3schools.com/">HTML 5/CSS 3/Javascript</a></kbd> <kbd style="font-size: 14pt;"><a href="https://vuejs.org/">Vue.js</a></kbd> <kbd style="font-size: 14pt;"><a href="https://code.visualstudio.com">VS Code 1.39</a></kbd>
+                                    </div>
+                                    <div class="button">
+                                        <a href="https://youtu.be/SGhibjK8knc" class="primary"><i class="fa fa-film"></i></a>
+                                        <a href="https://github.com/Christoph16478/vuejs-poster-shop"><i class="fa fa-file-code-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ End portfolio -->
+                        <!-- Single portfolio -->
+                        <div class="mix development html5 col-md-4 col-sm-6 col-xs-12 col-fix ">
+                            <div class="portfolio-single">
+                                <div class="portfolio-head">
+                                    <img src="images/portfolio/portfolio10.jpg" alt="" />
+                                </div>
+                                <div class="portfolio-hover">
+                                    <h4><span>Application</span><a href="#">Contact Book</a></h4>
+                                    <div style="line-height: 200%">
+                                        <kbd style="font-size: 14pt;"><a href="https://www.tutorialspoint.com/java/index.htm">JAVA</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.jetbrains.com/de-de/idea/">IntelliJ IDEA 2019.3</a></kbd>
+                                    </div>
+                                    <div class="button">
+                                        <a href="https://youtu.be/QLWH9m29ApM" class="primary"><i class="fa fa-film"></i></a>
+                                        <a href="https://github.com/Christoph16478/myContacts"><i class="fa fa-file-code-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ End portfolio -->
+                        <!-- Single portfolio -->
+                        <div class="mix development html5 col-md-4 col-sm-6 col-xs-12 col-fix ">
+                            <div class="portfolio-single">
+                                <div class="portfolio-head">
+                                    <img src="images/portfolio/portfolio9.jpg" alt="" />
+                                </div>
+                                <div class="portfolio-hover">
+                                    <h4><span>Backend</span><a href="#">Analysation of Letters</a></h4>
+                                    <div style="line-height: 200%">
+                                        <kbd style="font-size: 14pt;"><a href="https://www.w3.org/TR/xslt-30/#what-is-xslt">XSLT 3.0</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.w3.org/XML/Query/">xquery</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.w3.org/XML/">XML</a></kbd>                                        <kbd style="font-size: 14pt;"><a href="https://exist-db.org/exist/apps/doc/production_good_practice">eXist-db</a></kbd> <kbd style="font-size: 14pt;"><a href="https://www.w3.org/TR/1999/REC-xpath-19991116/">XPath</a></kbd>                                        <kbd style="font-size: 14pt;"><a href="https://www.w3schools.com/">HTML 5/CSS 3/Javascript</a></kbd>
+                                    </div>
+                                    <div class="button">
+                                        <a href="https://youtu.be/WgwBAQSy6TQ" class="primary"><i class="fa fa-film"></i></a>
+                                        <a href="https://github.com/Christoph16478/xquery-text-analysation"><i class="fa fa-file-code-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ End portfolio -->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            </div>
+        </div>
+    </section>
+    <!--/ End portfolio -->
 
-		<!-- Start Timeline-->
-		<section id="my-timeline" class="section clearfix">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 col-sm-12 col-xs-12">
-						<div class="section-title">
-							<h1><span>Work and </span>Education<i class="fa fa-history"></i></h1>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<div class="timeline">
-							<div class="timeline-inner">
-								<!-- Single Timeline -->
-								<div class="single-main wow fadeInLeft" data-wow-delay="0.4s">
-									<div class="single-timeline">
-										<div class="single-content">
-											<div class="date">
-												<p>Recent<span></span></p>
-											</div>
-											<h2>Masters Degree in <a href="https://studien.uni-graz.at/en/degree-programmes/digital-humanities-masters-programme/digital-humanities-masters-programme/">Digital Humanities</a></h2>
-											<p><i>Karl-Franzens University in Graz,</i> <p style="text-transform: uppercase">Austria</p><br>programming, web development, projectmanagement, information modeling</p>
-										</div>
-									</div>
-								</div>
-								<!--/ End Single Timeline -->
-								<!-- Single Timeline -->
-								<div class="single-main wow fadeInRight" data-wow-delay="0.6s">
-									<div class="single-timeline">
-										<div class="single-content">
-											<div class="date">
-												<p>Oct<span>17</span></p>
-											</div>
-											<h2>Bachelors Degree in Philosophy</h2>
-											<p><i>Karl-Franzens University in Graz,</i><p style="text-transform: uppercase">Austria</p><br>epistemology, logic, ethic</p>
-										</div>
-									</div>
-								</div>
-								<!--/ End Single Timeline -->
-								<!-- Single Timeline -->
-								<div class="single-main wow fadeInLeft" data-wow-delay="0.4s">
-									<div class="single-timeline">
-										<div class="single-content">
-											<div class="date">
-												<p>Mar<span>14</span></p>
-											</div>
-											<h2>Hotelbutler</h2>
-											<p><i>Hapag Lloyd, MV Hanseatic<br>Carlton hotel in St. Moritz</i><p style="text-transform: uppercase">Switzerland</p><br>management of suites, administration of guest databases, allraound care of guests</p>
-										</div>
-									</div>
-								</div>
-								<!--/ End Single Timeline -->
-								<!-- Single Timeline -->
-								<div class="single-main wow fadeInLeft" data-wow-delay="0.4s">
-									<div class="single-timeline">
-										<div class="single-content">
-											<div class="date">
-												<p>Nov<span>13</span></p>
-											</div>
-											<h2>Hotelbutler</h2>
-											<p><i>Butler Trainingscenter,</i><p style="text-transform: uppercase">Germany</p><br>Hotelbutler training</p>
-										</div>
-									</div>
-								</div>
-								<!--/ End Single Timeline -->
-								<!-- Single Timeline -->
-								<div class="single-main wow fadeInLeft" data-wow-delay="0.4s">
-									<div class="single-timeline">
-										<div class="single-content">
-											<div class="date">
-												<p>Oct<span>13</span></p>
-											</div>
-											<h2>Commis de rang, Demi-chef de rang</h2>
-											<p><i>Hotel Eden Roc in Ascona,</i><p style="text-transform: uppercase">Switzerland</p><br>ward manager, taking care of guests, expert advicing</p>
-										</div>
-									</div>
-								</div>
-								<!--/ End Single Timeline -->
-								<!-- Single Timeline -->
-								<div class="single-main wow fadeInLeft" data-wow-delay="0.4s">
-									<div class="single-timeline">
-										<div class="single-content">
-											<div class="date">
-												<p>May<span>12</span></p>
-											</div>
-											<h2>Additional training</h2>
-											<p><i>Glossa - Scuola di Lingue e Informatica,</i><p style="text-transform: uppercase">Switzerland</p><br>Very good knowledge in italian</p>
-										</div>
-									</div>
-								</div>
-								<!--/ End Single Timeline -->
-								<!-- Single Timeline -->
-								<div class="single-main wow fadeInLeft" data-wow-delay="0.4s">
-										<div class="single-timeline">
-											<div class="single-content">
-												<div class="date">
-													<p>Sep<span>11</span></p>
-												</div>
-												<h2>Chef de rang</h2>
-												<p><i>Hotel Suvretta House,</i><p style="text-transform: uppercase">Switzerland</p><br>ward manager, taking care of guests, expert advicing</p>
-											</div>
-										</div>
-									</div>
-									<!--/ End Single Timeline -->
-									<!-- Single Timeline -->
-									<div class="single-main wow fadeInLeft" data-wow-delay="0.4s">
-										<div class="single-timeline">
-											<div class="single-content">
-												<div class="date">
-													<p>Apr<span>11</span></p>
-												</div>
-												<h2>Paramedic</h2>
-												<p><i>Red Cross,</i><p style="text-transform: uppercase">Austria</p><br>Completion of the civil service</p>
-											</div>
-										</div>
-									</div>
-									<!--/ End Single Timeline -->
-									<!-- Single Timeline -->
-									<div class="single-main wow fadeInLeft" data-wow-delay="0.4s">
-											<div class="single-timeline">
-												<div class="single-content">
-													<div class="date">
-														<p>May<span>10</span></p>
-													</div>
-													<h2>Tourism Kauffmann</h2>
-													<p><i>College of tourism specialising in management in the tourist industry,</i><p style="text-transform: uppercase">Austria</p><br>Focus: Management</p>
-												</div>
-											</div>
-										</div>
-										<!--/ End Single Timeline -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--/ End Timeline -->
+    <!-- Start Timeline-->
+    <section id="my-timeline" class="section clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="section-title">
+                        <h1><span>Work and </span>Education<i class="fa fa-history"></i></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="timeline">
+                        <div class="timeline-inner">
+                            <!-- Single Timeline -->
+                            <div class="single-main wow fadeInLeft" data-wow-delay="0.4s">
+                                <div class="single-timeline">
+                                    <div class="single-content">
+                                        <div class="date">
+                                            <p>Recent<span></span></p>
+                                        </div>
+                                        <h2>Masters Degree in <a href="https://studien.uni-graz.at/en/degree-programmes/digital-humanities-masters-programme/digital-humanities-masters-programme/">Digital Humanities</a></h2>
+                                        <p><i>Karl-Franzens University in Graz,</i>
+                                            <p style="text-transform: uppercase">Austria</p><br>programming, web development, projectmanagement, information modeling</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/ End Single Timeline -->
+                            <!-- Single Timeline -->
+                            <div class="single-main wow fadeInRight" data-wow-delay="0.6s">
+                                <div class="single-timeline">
+                                    <div class="single-content">
+                                        <div class="date">
+                                            <p>Oct<span>17</span></p>
+                                        </div>
+                                        <h2>Bachelors Degree in Philosophy</h2>
+                                        <p><i>Karl-Franzens University in Graz,</i>
+                                            <p style="text-transform: uppercase">Austria</p><br>epistemology, logic, ethic</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/ End Single Timeline -->
+                            <!-- Single Timeline -->
+                            <div class="single-main wow fadeInLeft" data-wow-delay="0.4s">
+                                <div class="single-timeline">
+                                    <div class="single-content">
+                                        <div class="date">
+                                            <p>Mar<span>14</span></p>
+                                        </div>
+                                        <h2>Hotelbutler</h2>
+                                        <p><i>Hapag Lloyd, MV Hanseatic<br>Carlton hotel in St. Moritz</i>
+                                            <p style="text-transform: uppercase">Switzerland</p><br>management of suites, administration of guest databases, allraound care of guests</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/ End Single Timeline -->
+                            <!-- Single Timeline -->
+                            <div class="single-main wow fadeInLeft" data-wow-delay="0.4s">
+                                <div class="single-timeline">
+                                    <div class="single-content">
+                                        <div class="date">
+                                            <p>Nov<span>13</span></p>
+                                        </div>
+                                        <h2>Hotelbutler</h2>
+                                        <p><i>Butler Trainingscenter,</i>
+                                            <p style="text-transform: uppercase">Germany</p><br>Hotelbutler training</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/ End Single Timeline -->
+                            <!-- Single Timeline -->
+                            <div class="single-main wow fadeInLeft" data-wow-delay="0.4s">
+                                <div class="single-timeline">
+                                    <div class="single-content">
+                                        <div class="date">
+                                            <p>Oct<span>13</span></p>
+                                        </div>
+                                        <h2>Commis de rang, Demi-chef de rang</h2>
+                                        <p><i>Hotel Eden Roc in Ascona,</i>
+                                            <p style="text-transform: uppercase">Switzerland</p><br>ward manager, taking care of guests, expert advicing</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/ End Single Timeline -->
+                            <!-- Single Timeline -->
+                            <div class="single-main wow fadeInLeft" data-wow-delay="0.4s">
+                                <div class="single-timeline">
+                                    <div class="single-content">
+                                        <div class="date">
+                                            <p>May<span>12</span></p>
+                                        </div>
+                                        <h2>Additional training</h2>
+                                        <p><i>Glossa - Scuola di Lingue e Informatica,</i>
+                                            <p style="text-transform: uppercase">Switzerland</p><br>Very good knowledge in italian</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/ End Single Timeline -->
+                            <!-- Single Timeline -->
+                            <div class="single-main wow fadeInLeft" data-wow-delay="0.4s">
+                                <div class="single-timeline">
+                                    <div class="single-content">
+                                        <div class="date">
+                                            <p>Sep<span>11</span></p>
+                                        </div>
+                                        <h2>Chef de rang</h2>
+                                        <p><i>Hotel Suvretta House,</i>
+                                            <p style="text-transform: uppercase">Switzerland</p><br>ward manager, taking care of guests, expert advicing</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/ End Single Timeline -->
+                            <!-- Single Timeline -->
+                            <div class="single-main wow fadeInLeft" data-wow-delay="0.4s">
+                                <div class="single-timeline">
+                                    <div class="single-content">
+                                        <div class="date">
+                                            <p>Apr<span>11</span></p>
+                                        </div>
+                                        <h2>Paramedic</h2>
+                                        <p><i>Red Cross,</i>
+                                            <p style="text-transform: uppercase">Austria</p><br>Completion of the civil service</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/ End Single Timeline -->
+                            <!-- Single Timeline -->
+                            <div class="single-main wow fadeInLeft" data-wow-delay="0.4s">
+                                <div class="single-timeline">
+                                    <div class="single-content">
+                                        <div class="date">
+                                            <p>May<span>10</span></p>
+                                        </div>
+                                        <h2>Tourism Kauffmann</h2>
+                                        <p><i>College of tourism specialising in management in the tourist industry,</i>
+                                            <p style="text-transform: uppercase">Austria</p><br>Focus: Management</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/ End Single Timeline -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ End Timeline -->
 
-		<!-- Start Call To Action -->
-		<section id="call-action" class="section wow fadeInUp">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="call-action-main">
-							<h2>I'm Ready for your next challange</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--/ End Call To Action -->
+    <!-- Start Call To Action -->
+    <section id="call-action" class="section wow fadeInUp">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="call-action-main">
+                        <h2>I'm Ready for your next challange</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ End Call To Action -->
 
-		<!-- Start Contact -->
-		<section id="contact" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 col-sm-12 col-xs-12">
-						<div class="section-title">
-							<h1><span>Contact</span> Me<i class="fa fa-star"></i></h1>
-							<p style="font-size: 14pt">Download my curriculum vitae and feel free to contact me if you have any questions.</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<!-- Contact Address -->
-					<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.4s">
-						<div class="contact">
-							<!-- Single Address -->
-							<div class="single-address">
-								<a href="https://www.linkedin.com/in/christoph-maximilian-hartleb-ba-972016147/"><i class="fa fa-linkedin"></i></a>
-							<div class="title">
-									<h4>LinkedIn</h4>
-								<p>Christoph Maximilian Hartleb</p>
-							</div>
-						</div>
-						<!--/ End Single Address -->
-						<!-- Single Address -->
-						<div class="single-address">
-							<a href="https://github.com/Christoph16478"><i class="fa fa-github"></i></a>
-							<div class="title">
-								<h4>GitHub</h4>
-								<p>Christoph16478</p>
-							</div>
-						</div>
-						<!--/ End Single Address -->
-						<!-- Single Address -->
-						<div class="single-address">
-							<a href="documents/cv.pdf"><i class="fa fa-download"></i></a>
-							<div class="title">
-								<h4>Curriculum Vitae in PDF</h4>
-								<p>cv.pdf</p>
-							</div>
-						</div>
-						<!--/ End Single Address -->
-						<!-- Single Address -->
-						<!--/ End Single Address -->
-						</div>
-					</div>
-					<!--/ End Contact Address -->
-					<!-- Contact Address -->
-					<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="0.8s">
-						<div class="contact">
-							<!-- Single Address -->
-							<div class="single-address">
-								<i class="fa fa-phone"></i>
-								<div class="title">
-									<h4>Mobile</h4>
-									<p>+43 677 623 123 43</p>
-								</div>
-							</div>
-							<!--/ End Single Address -->
-							<!-- Single Address -->
-							<div class="single-address">
-								<a href="#" data-toggle="tooltip" title="Copy E-Mail">
-									<button onclick="copyToClipboard('#p1')">
+    <!-- Start Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="section-title">
+                        <h1><span>Contact</span> Me<i class="fa fa-star"></i></h1>
+                        <p style="font-size: 14pt">Download my curriculum vitae and feel free to contact me if you have any questions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Contact Address -->
+                <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.4s">
+                    <div class="contact">
+                        <!-- Single Address -->
+                        <div class="single-address">
+                            <a href="https://www.linkedin.com/in/christoph-maximilian-hartleb-ba-972016147/"><i class="fa fa-linkedin"></i></a>
+                            <div class="title">
+                                <h4>LinkedIn</h4>
+                                <p>Christoph Maximilian Hartleb</p>
+                            </div>
+                        </div>
+                        <!--/ End Single Address -->
+                        <!-- Single Address -->
+                        <div class="single-address">
+                            <a href="https://github.com/Christoph16478"><i class="fa fa-github"></i></a>
+                            <div class="title">
+                                <h4>GitHub</h4>
+                                <p>Christoph16478</p>
+                            </div>
+                        </div>
+                        <!--/ End Single Address -->
+                        <!-- Single Address -->
+                        <div class="single-address">
+                            <a href="documents/cv.pdf"><i class="fa fa-download"></i></a>
+                            <div class="title">
+                                <h4>Curriculum Vitae in PDF</h4>
+                                <p>cv.pdf</p>
+                            </div>
+                        </div>
+                        <!--/ End Single Address -->
+                        <!-- Single Address -->
+                        <!--/ End Single Address -->
+                    </div>
+                </div>
+                <!--/ End Contact Address -->
+                <!-- Contact Address -->
+                <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="0.8s">
+                    <div class="contact">
+                        <!-- Single Address -->
+                        <div class="single-address">
+                            <i class="fa fa-phone"></i>
+                            <div class="title">
+                                <h4>Mobile</h4>
+                                <p>+43 677 623 123 43</p>
+                            </div>
+                        </div>
+                        <!--/ End Single Address -->
+                        <!-- Single Address -->
+                        <div class="single-address">
+                            <a href="#" data-toggle="tooltip" title="Copy E-Mail">
+                                <button onclick="copyToClipboard('#p1')">
 									<i class="fa fa-envelope"></i>
 									</button>
-								</a>
-								<div class="title">
-									<h4>E-Mail</h4>
-									<p id="p1">christophhartleb@gmx.at</p>
-								</div>
-							</div>
-							<!--/ End Single Address -->
-							<!-- Single Address -->
-							<div class="single-address">
-								<a href="https://goo.gl/maps/QkdQv5b2LmYxhuRYA"><i class="fa fa-map"></i></a>
-								<div class="title">
-									<h4>Location</h4>
-									<p>Vienna, AUSTRIA</p>
-								</div>
-							</div>
-							<!--/ End Single Address -->
-						</div>
-					</div>
-					<!--/ End Contact Address -->
-				</div>
-			</div>
-		</section>
-		<!--/ End Contact -->
+                            </a>
+                            <div class="title">
+                                <h4>E-Mail</h4>
+                                <p id="p1">christophhartleb@gmx.at</p>
+                            </div>
+                        </div>
+                        <!--/ End Single Address -->
+                        <!-- Single Address -->
+                        <div class="single-address">
+                            <a href="https://goo.gl/maps/QkdQv5b2LmYxhuRYA"><i class="fa fa-map"></i></a>
+                            <div class="title">
+                                <h4>Location</h4>
+                                <p>Vienna, AUSTRIA</p>
+                            </div>
+                        </div>
+                        <!--/ End Single Address -->
+                    </div>
+                </div>
+                <!--/ End Contact Address -->
+            </div>
+        </div>
+    </section>
+    <!--/ End Contact -->
 
-		<!-- Footer Top -->
-		<section id="footer-top" class="section">
-			<div class="container">
-				<div class="row"></div>
-			</div>
-		</section>
-		<!--/ End footer Top -->
-		
-		<!-- Start Footer -->
-		<footer id="footer">
-			<!-- Arrow -->
-			<div class="arrow">
-				<a href="#personal-area" class="btn"><i class="fa fa-angle-up"></i></a>
-			</div>
-			<!--/ End Arrow -->
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-sm-6 col-xs-12">
-						<!-- Copyright -->
-						<div class="copyright"></div>
-						<!--/ End Copyright -->
-					</div>
-					<div class="col-md-6 col-sm-6 col-xs-12"></div>
-				</div>
-			</div>
-		</footer>
-		<!--/ End Footer -->
-		
-		<!-- Jquery -->
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		
-		<!-- Colors JS -->
-		<script type="text/javascript" src="js/colors.js"></script>
-			
-		<!-- Modernizr JS -->
-		<script type="text/javascript" src="js/modernizr.min.js"></script>
-			
-		<!-- WOW JS -->
-		<script type="text/javascript" src="js/wow.min.js"></script>
-		
-		<!-- Fancybox js -->
-		<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
-		
-		<!-- Animate Text JS -->
-		<script type="text/javascript" src="js/animate-text.js"></script>
-		
-		<!-- Mobile Menu JS -->
-    	<script type="text/javascript" src="js/jquery.slicknav.min.js"></script>
-		
-		<!-- Jquery Parallax -->
-    	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
-		
-		<!-- Jquery Easing -->
-    	<script type="text/javascript" src="js/easing.js"></script>
-		
-		<!-- One Page Nav JS -->
-    	<script type="text/javascript" src="js/jquery.nav.js"></script>
-		
-		<!-- Slider Carousel JS -->
-		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <!-- Footer Top -->
+    <section id="footer-top" class="section">
+        <div class="container">
+            <div class="row"></div>
+        </div>
+    </section>
+    <!--/ End footer Top -->
 
-		<!-- Youtube Player JS -->
-		<script type="text/javascript" src="js/ytplayer.min.js"></script>
+    <!-- Start Footer -->
+    <footer id="footer">
+        <!-- Arrow -->
+        <div class="arrow">
+            <a href="#personal-area" class="btn"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!--/ End Arrow -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <!-- Copyright -->
+                    <div class="copyright"></div>
+                    <!--/ End Copyright -->
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12"></div>
+            </div>
+        </div>
+    </footer>
+    <!--/ End Footer -->
 
-		<!-- Particle JS -->
-		<script type="text/javascript" src="js/particles.min.js"></script>
-		
-		<!-- Counter JS -->
-		<script type="text/javascript" src="js/waypoints.min.js"></script>
-		<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
-		
-		<!-- Mixitup JS -->
-		<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-		
-		<!-- Bootstrap JS -->
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		
-		<!-- Main JS -->
-		<script type="text/javascript" src="js/main.js"></script>
+    <!-- Jquery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
 
-		<!-- Copy Email -->
-		<script>
-			function copyToClipboard(element) {
-				var $temp = $("<input>");
-				$("body").append($temp);
-				$temp.val($(element).text()).select();
-				document.execCommand("copy");
-				$temp.remove();		}
-		</script>
-    	
-    </body>
+    <!-- Colors JS -->
+    <script type="text/javascript" src="js/colors.js"></script>
+
+    <!-- Modernizr JS -->
+    <script type="text/javascript" src="js/modernizr.min.js"></script>
+
+    <!-- WOW JS -->
+    <script type="text/javascript" src="js/wow.min.js"></script>
+
+    <!-- Fancybox js -->
+    <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+
+    <!-- Animate Text JS -->
+    <script type="text/javascript" src="js/animate-text.js"></script>
+
+    <!-- Mobile Menu JS -->
+    <script type="text/javascript" src="js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Parallax -->
+    <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+
+    <!-- Jquery Easing -->
+    <script type="text/javascript" src="js/easing.js"></script>
+
+    <!-- One Page Nav JS -->
+    <script type="text/javascript" src="js/jquery.nav.js"></script>
+
+    <!-- Slider Carousel JS -->
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+    <!-- Youtube Player JS -->
+    <script type="text/javascript" src="js/ytplayer.min.js"></script>
+
+    <!-- Particle JS -->
+    <script type="text/javascript" src="js/particles.min.js"></script>
+
+    <!-- Counter JS -->
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+
+    <!-- Mixitup JS -->
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Main JS -->
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <!-- Copy Email -->
+    <script>
+        function copyToClipboard(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+        }
+    </script>
+
+</body>
+
 </html>
