@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.10)  20 OCT 2020 20:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.10)  24 OCT 2020 10:58
 entering extended mode
 **./cv-de.tex
 (cv-de.tex
@@ -756,27 +756,27 @@ Overfull \hbox (244.00406pt too wide) in paragraph at lines 84--84
 [][] 
  []
 
-<cv-picture.jpg, id=29, 98.16675pt x 146.34676pt>
+<cv-picture.jpg, id=30, 98.16675pt x 146.34676pt>
 File: cv-picture.jpg Graphic file (type jpg)
 <use cv-picture.jpg>
 Package pdftex.def Info: cv-picture.jpg  used on input line 86.
-(pdftex.def)             Requested size: 91.04881pt x 135.73708pt.
+(pdftex.def)             Requested size: 88.20354pt x 131.49648pt.
 [1
 
 {C:/Users/chris/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./cv-picture.jp
 g>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 221.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 232.
  [2] (cv-de.aux)
 Package rerunfilecheck Info: File `cv-de.out' has not changed.
-(rerunfilecheck)             Checksum: 9AC704A63AA40247010A1906F8C2B108;303.
+(rerunfilecheck)             Checksum: 6806DC332583337719C5718CC26249A9;300.
  ) 
 Here is how much of TeX's memory you used:
- 11728 strings out of 480235
- 183910 string characters out of 2890416
- 692857 words of memory out of 3000000
+ 11730 strings out of 480235
+ 183934 string characters out of 2890416
+ 693857 words of memory out of 3000000
  27991 multiletter control sequences out of 15000+200000
- 575959 words of font info for 68 fonts, out of 3000000 for 9000
+ 576060 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,13n,78p,581b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTe
@@ -784,9 +784,9 @@ X/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
 lm/lmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/P
 rogram Files/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files/MiKTeX/
 fonts/type1/public/lm/lmsso17.pfb>
-Output written on cv-de.pdf (2 pages, 141812 bytes).
+Output written on cv-de.pdf (2 pages, 143244 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
  14902 words of extra memory for PDF output out of 17280 (max. 10000000)
 
