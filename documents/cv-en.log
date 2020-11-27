@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.10)  24 OCT 2020 10:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.13)  27 NOV 2020 16:31
 entering extended mode
 **./cv-en.tex
 (cv-en.tex
-LaTeX2e <2020-10-01>
-L3 programming layer <2020-10-05> xparse <2020-03-03>
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-10-27> xparse <2020-03-03>
 ("C:\Program Files\MiKTeX\tex/latex/moderncv\moderncv.cls"
 Document Class: moderncv 2015/07/28 v2.0.0 modern curriculum vitae and letter d
 ocument class
@@ -156,14 +156,14 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 ("C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty"
 ("C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty"
-Package: expl3 2020-10-05 L3 programming layer (loader) 
+Package: expl3 2020-10-27 L3 programming layer (loader) 
 
 ("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count180
 \l__pdf_internal_box=\box49
 ))
-Package: xparse 2020-10-05 L3 Experimental document command parser
+Package: xparse 2020-10-27 L3 Experimental document command parser
 
 ("C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex"))
 ("C:\Program Files\MiKTeX\tex/latex/microtype\microtype.sty"
@@ -436,7 +436,7 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 ("C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty"
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen168
 \Hy@linkcounter=\count268
@@ -657,15 +657,15 @@ LaTeX Info: Redefining \nameref on input line 68.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.76398pt, 483.9799pt, 56.76399pt)
-* v-part:(T,H,B)=(64.22437pt, 684.48587pt, 96.33661pt)
+* h-part:(L,W,R)=(50.78763pt, 495.93262pt, 50.78763pt)
+* v-part:(T,H,B)=(57.46255pt, 701.39043pt, 86.19386pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.9799pt
-* \textheight=684.48587pt
-* \oddsidemargin=-15.50601pt
-* \evensidemargin=-15.50601pt
-* \topmargin=-45.04562pt
+* \textwidth=495.93262pt
+* \textheight=701.39043pt
+* \oddsidemargin=-21.48236pt
+* \evensidemargin=-21.48236pt
+* \topmargin=-51.80743pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -722,37 +722,37 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 78.
 
-Overfull \hbox (246.98996pt too wide) in paragraph at lines 78--78
+Overfull \hbox (252.96631pt too wide) in paragraph at lines 78--78
 [][] 
  []
 
 
-Overfull \hbox (246.98996pt too wide) in paragraph at lines 79--79
+Overfull \hbox (252.96631pt too wide) in paragraph at lines 79--79
 [][] 
  []
 
 
-Overfull \hbox (246.98996pt too wide) in paragraph at lines 80--80
+Overfull \hbox (252.96631pt too wide) in paragraph at lines 80--80
 [][] 
  []
 
 
-Overfull \hbox (246.98996pt too wide) in paragraph at lines 81--81
+Overfull \hbox (252.96631pt too wide) in paragraph at lines 81--81
 [][] 
  []
 
 
-Overfull \hbox (246.98996pt too wide) in paragraph at lines 82--82
+Overfull \hbox (252.96631pt too wide) in paragraph at lines 82--82
 [][] 
  []
 
 
-Overfull \hbox (246.98996pt too wide) in paragraph at lines 83--83
+Overfull \hbox (252.96631pt too wide) in paragraph at lines 83--83
 [][] 
  []
 
 
-Overfull \hbox (246.98996pt too wide) in paragraph at lines 84--84
+Overfull \hbox (252.96631pt too wide) in paragraph at lines 84--84
 [][] 
  []
 
@@ -766,25 +766,25 @@ Package pdftex.def Info: cv-picture.jpg  used on input line 86.
 {C:/Users/chris/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./cv-picture.jp
 g>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 232.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 238.
  [2] (cv-en.aux)
 Package rerunfilecheck Info: File `cv-en.out' has not changed.
 (rerunfilecheck)             Checksum: 0EBEDD60B82D5DD803221F39B8070C82;289.
  ) 
 Here is how much of TeX's memory you used:
- 11724 strings out of 480235
- 183849 string characters out of 2890416
- 694857 words of memory out of 3000000
- 27989 multiletter control sequences out of 15000+200000
- 575893 words of font info for 67 fonts, out of 3000000 for 9000
+ 11727 strings out of 479799
+ 183871 string characters out of 2879598
+ 690411 words of memory out of 3000000
+ 28423 multiletter control sequences out of 15000+200000
+ 576060 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,13n,78p,581b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 80i,12n,86p,581b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTe
 X/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
 lm/lmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/P
 rogram Files/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files/MiKTeX/
 fonts/type1/public/lm/lmsso17.pfb>
-Output written on cv-en.pdf (2 pages, 140274 bytes).
+Output written on cv-en.pdf (2 pages, 141708 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
