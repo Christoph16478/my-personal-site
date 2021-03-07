@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.13)  27 NOV 2020 16:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.13)  31 JAN 2021 07:34
 entering extended mode
 **./cv-en.tex
 (cv-en.tex
@@ -772,11 +772,11 @@ Package rerunfilecheck Info: File `cv-en.out' has not changed.
 (rerunfilecheck)             Checksum: 0EBEDD60B82D5DD803221F39B8070C82;289.
  ) 
 Here is how much of TeX's memory you used:
- 11727 strings out of 479799
- 183871 string characters out of 2879598
+ 11731 strings out of 479799
+ 183823 string characters out of 2879598
  690411 words of memory out of 3000000
  28423 multiletter control sequences out of 15000+200000
- 576060 words of font info for 69 fonts, out of 3000000 for 9000
+ 576262 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,12n,86p,581b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTe
@@ -784,7 +784,7 @@ X/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
 lm/lmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/P
 rogram Files/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files/MiKTeX/
 fonts/type1/public/lm/lmsso17.pfb>
-Output written on cv-en.pdf (2 pages, 141708 bytes).
+Output written on cv-en.pdf (2 pages, 141811 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)

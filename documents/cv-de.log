@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.13)  27 NOV 2020 16:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.13)  31 JAN 2021 07:12
 entering extended mode
 **./cv-de.tex
 (cv-de.tex
@@ -773,7 +773,7 @@ Package rerunfilecheck Info: File `cv-de.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  11729 strings out of 479799
- 183912 string characters out of 2879598
+ 183814 string characters out of 2879598
  689411 words of memory out of 3000000
  28425 multiletter control sequences out of 15000+200000
  576060 words of font info for 69 fonts, out of 3000000 for 9000
@@ -784,7 +784,7 @@ X/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
 lm/lmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/P
 rogram Files/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files/MiKTeX/
 fonts/type1/public/lm/lmsso17.pfb>
-Output written on cv-de.pdf (2 pages, 144696 bytes).
+Output written on cv-de.pdf (2 pages, 145030 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
